@@ -30,6 +30,20 @@ return [
 
     'openapi' => [
         'path' => env('REDOC_OPENAPI_PATH', 'http://petstore.swagger.io/v2/swagger.json')
+    ],
+
+    'config' => [
+        'search' => false,
+
+        'hostname' => false,
+
+        'loading' => false,
+
+        'menu' => true,
+
+        'scrollbars' => true,
+
+        'trust' => true,
     ]
 ];
 ```
