@@ -1,0 +1,44 @@
+{
+    "name": "juststeveking/laravel-redoc",
+    "description": "A simple API documentation package for Laravel using OpenAPI and Redoc",
+    "keywords": [
+        "laravel",
+        "api",
+        "documentation",
+        "redoc",
+        "openapi"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "developer",
+            "name": "Steve McDougall",
+            "email": "juststevemcd@gmail.com",
+            "homepage": "https://www.juststeveking.uk/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "JustSteveKing\\Laravel\\LaravelRedoc\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JustSteveKing\\Laravel\\LaravelRedoc\\RedocServiceProvider"
+            ]
+        }
+    }
+}
