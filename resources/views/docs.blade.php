@@ -20,7 +20,7 @@
   <body>
     <redoc
         spec-url='{{ config('redoc.openapi.path') }}'
-        disable-search="true"
+        disable-search="false"
     ></redoc>
     
     <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
