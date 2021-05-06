@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.032505">
+    <testsuite name="Laravel Redoc Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.032505">
+      <testsuite name="JustSteveKing\Laravel\LaravelRedoc\Tests\DocumentationTest" file="/Users/steve/code/sites/laravel/packages/laravel-redoc/tests/DocumentationTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.032505">
+        <testcase name="it_responds_as_expected" class="JustSteveKing\Laravel\LaravelRedoc\Tests\DocumentationTest" classname="JustSteveKing.Laravel.LaravelRedoc.Tests.DocumentationTest" file="/Users/steve/code/sites/laravel/packages/laravel-redoc/tests/DocumentationTest.php" line="14" assertions="1" time="0.032505"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

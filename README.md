@@ -1,5 +1,10 @@
 # Laravel Redoc
 
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-github-action]][link-github-action]
+[![Total Downloads][ico-downloads]][link-downloads]
+
 Easily publish your API documentation using your OpenAPI document in your Laravel Application.
 
 ## Installation
@@ -70,3 +75,13 @@ If you discover any security related issues, please email juststevemcd@gmail.com
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
+[ico-version]: https://img.shields.io/packagist/v/juststeveking/laravel-redoc.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-github-action]: https://github.com/JustSteveKing/laravel-redoc/workflows/tests/badge.svg?branch=main
+[ico-downloads]: https://img.shields.io/packagist/dt/juststeveking/laravel-redoc.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/juststeveking/laravel-redoc
+[link-github-action]: https://github.com/JustSteveKing/laravel-redoc/actions
+[link-downloads]: https://packagist.org/packages/juststeveking/laravel-redoc
+[link-author]: https://github.com/JustSteveKing
+[link-contributors]: ../../contributors

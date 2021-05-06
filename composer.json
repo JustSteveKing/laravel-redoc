@@ -30,9 +30,18 @@
             "JustSteveKing\\Laravel\\LaravelRedoc\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "JustSteveKing\\Laravel\\LaravelRedoc\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "php": "^8.0",
         "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.17",
+        "phpunit/phpunit": "^9.5"
     },
     "extra": {
         "laravel": {
