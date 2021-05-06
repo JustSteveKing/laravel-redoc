@@ -48,8 +48,6 @@ return [
 ];
 ```
 
-This allows you to specify the route name, and path as well as the path to your local or cloud hosted openapi file.
-
 
 ## Contributing
 
