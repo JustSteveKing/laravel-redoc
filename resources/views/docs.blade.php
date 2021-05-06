@@ -20,7 +20,12 @@
   <body>
     <redoc
         spec-url='{{ config('redoc.openapi.path') }}'
-        disable-search="false"
+        disable-search="{{ config('redoc.config.search') }}"
+        hide-hostname="{{ config('redoc.config.hostname') }}"
+        hide-loading="{{ config('redoc.config.loading') }}"
+        menu-toggle="{{ config('redoc.config.menu') }}"
+        native-scrollbars="{{ config('redoc.config.scrollbars') }}"
+        untrusted-spec="{{ config('redoc.config.trust') }}"
     ></redoc>
     
     <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
