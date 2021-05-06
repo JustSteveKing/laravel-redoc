@@ -18,7 +18,10 @@
     </style>
   </head>
   <body>
-    <redoc spec-url='{{ config('redoc.openapi.path') }}'></redoc>
+    <redoc
+        spec-url='{{ config('redoc.openapi.path') }}'
+    ></redoc>
+    
     <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
   </body>
 </html>
