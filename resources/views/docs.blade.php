@@ -20,7 +20,11 @@
   <body>
     <redoc
         spec-url='{{ config('redoc.openapi.path') }}'
-        disable-search="{{ config('redoc.config.search') }}"
+        
+        @if (config("redoc.config.search"))
+            disable-search
+        @endif
+
         hide-hostname="{{ config('redoc.config.hostname') }}"
         hide-loading="{{ config('redoc.config.loading') }}"
         menu-toggle="{{ config('redoc.config.menu') }}"
