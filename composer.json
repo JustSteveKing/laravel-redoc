@@ -37,10 +37,10 @@
     },
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^9.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.17",
+        "orchestra/testbench": "^7.0",
         "phpunit/phpunit": "^9.5"
     },
     "extra": {
