@@ -12,6 +12,9 @@ return [
     'path' => [
         'name' => env('REDOC_PATH_NAME', 'docs'),
         'url' => env('REDOC_PATH_URL', 'api/docs'),
+        'middleware' => [
+            //\App\Http\Middleware\BasicAuthentication::class,
+        ],
     ],
 
     /*
