@@ -7,4 +7,6 @@ Route::view(
     'redoc::docs',
 )->name(
     config('redoc.path.name')
+)->middleware(
+    config('redoc.path.middleware', [])
 );
